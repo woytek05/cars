@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const PORT = 3000;
+const PORT = 10000;
 const context = require("./data/data.json");
 const collection = new Datastore({
     filename: "collection.db",
