@@ -1,0 +1,26 @@
+{{> navbar}}
+<div class="m-5">
+    <h1 class="display-5">Add car page</h1>
+    {{#if addedCarId}}
+        <div class="alert alert-success" role="alert">New car with id = {{addedCarId}} was added to database</div>
+    {{/if}}
+    <form action="/addCar" method="POST">
+        <div class="d-flex flex-column form-group m-3">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="carAttributes[]" value="insured"> ubezpieczony
+            </label>
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="carAttributes[]" value="gasolinePowered"> benzyna
+            </label>
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="carAttributes[]" value="damaged"> uszkodzony
+            </label>
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="carAttributes[]" value="fourByFour"> napęd 4x4
+            </label>
+        </div>
+        <div class="form-group m-3">
+            <input class="btn btn-primary" type="submit" value="Add">
+        </div>
+    </form>
+</div>

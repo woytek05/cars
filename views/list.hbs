@@ -1,0 +1,21 @@
+{{> navbar}}
+<div class="m-5">
+    <h1 class="display-5">Cars list page</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">_id</th>
+                <th scope="col">insured</th>
+                <th scope="col">gasolinePowered</th>
+                <th scope="col">damaged</th>
+                <th scope="col">fourByFour</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each cars}}
+                {{> row}}
+            {{/each}}
+        </tbody>
+    </table>
+</div>

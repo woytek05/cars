@@ -1,0 +1,113 @@
+<tr>
+    {{#if editable}}
+        <th scope="row">
+            {{_id}}
+        </th>
+        <td>
+            <select id="insured" name="insured" class="form-select">
+                {{#ifeq insured true}}
+                    <option value="true" selected>YES</option>
+                    <option value="false">NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq insured false}}
+                    <option value="true">YES</option>
+                    <option value="false" selected>NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq insured null}}
+                    <option value="true">YES</option>
+                    <option value="false">NO</option>
+                    <option value="null" selected>NODATA</option>
+                {{/ifeq}}
+            </select>
+        </td>
+        <td>
+            <select
+                id="gasolinePowered"
+                name="gasolinePowered"
+                class="form-select"
+            >
+                {{#ifeq gasolinePowered true}}
+                    <option value="true" selected>YES</option>
+                    <option value="false">NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq gasolinePowered false}}
+                    <option value="true">YES</option>
+                    <option value="false" selected>NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq gasolinePowered null}}
+                    <option value="true">YES</option>
+                    <option value="false">NO</option>
+                    <option value="null" selected>NODATA</option>
+                {{/ifeq}}
+            </select>
+        </td>
+        <td>
+            <select id="damaged" name="damaged" class="form-select">
+                {{#ifeq damaged true}}
+                    <option value="true" selected>YES</option>
+                    <option value="false">NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq damaged false}}
+                    <option value="true">YES</option>
+                    <option value="false" selected>NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq damaged null}}
+                    <option value="true">YES</option>
+                    <option value="false">NO</option>
+                    <option value="null" selected>NODATA</option>
+                {{/ifeq}}
+            </select>
+        </td>
+        <td>
+            <select id="fourByFour" name="fourByFour" class="form-select">
+                {{#ifeq fourByFour true}}
+                    <option value="true" selected>YES</option>
+                    <option value="false">NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq fourByFour false}}
+                    <option value="true">YES</option>
+                    <option value="false" selected>NO</option>
+                    <option value="null">NODATA</option>
+                {{/ifeq}}
+                {{#ifeq fourByFour null}}
+                    <option value="true">YES</option>
+                    <option value="false">NO</option>
+                    <option value="null" selected>NODATA</option>
+                {{/ifeq}}
+            </select>
+        </td>
+        <td class="d-flex justify-content-start gap-2">
+            <button
+                class="btn btn-danger"
+                onclick="updateCar(
+                    '{{_id}}', 
+                    document.getElementById('insured'), 
+                    document.getElementById('gasolinePowered'), 
+                    document.getElementById('damaged'),
+                    document.getElementById('fourByFour')
+                )"
+            >UPDATE</button>
+            <a href="/editCars">
+                <button class="btn btn-dark">CANCEL</button>
+            </a>
+        </td>
+    {{else}}
+        <th scope="row">{{_id}}</th>
+        <td>{{format insured}}</td>
+        <td>{{format gasolinePowered}}</td>
+        <td>{{format damaged}}</td>
+        <td>{{format fourByFour}}</td>
+        <td>
+            <a href="/editCars?id={{_id}}"><button
+                    class="btn btn-dark"
+                >EDIT</button></a>
+        </td>
+    {{/if}}
+</tr>

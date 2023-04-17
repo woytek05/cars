@@ -1,0 +1,304 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "car_name": "Isuzu",
+            "car_type": "Rodeo",
+            "car_year": 2003,
+            "image": "https://robohash.org/ipsumblanditiisquis.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/228x224.png/dddddd/000000",
+            "hex_color": "237701",
+            "damaged": true
+        },
+        {
+            "id": 2,
+            "car_name": "Honda",
+            "car_type": "Prelude",
+            "car_year": 1986,
+            "image": "https://robohash.org/quoexpeditaconsequatur.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/157x121.png/5fa2dd/ffffff",
+            "hex_color": "f7f23d",
+            "damaged": false
+        },
+        {
+            "id": 3,
+            "car_name": "Mercedes-Benz",
+            "car_type": "Sprinter 2500",
+            "car_year": 2012,
+            "image": "https://robohash.org/suntassumendadolores.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/159x186.png/5fa2dd/ffffff",
+            "hex_color": "721ac8",
+            "damaged": false
+        },
+        {
+            "id": 4,
+            "car_name": "Acura",
+            "car_type": "RSX",
+            "car_year": 2004,
+            "image": "https://robohash.org/utaodit.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/242x160.png/5fa2dd/ffffff",
+            "hex_color": "dcbeb7",
+            "damaged": true
+        },
+        {
+            "id": 5,
+            "car_name": "Land Rover",
+            "car_type": "Range Rover Sport",
+            "car_year": 2010,
+            "image": "https://robohash.org/deseruntrepellatquia.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/196x180.png/5fa2dd/ffffff",
+            "hex_color": "3e29b2",
+            "damaged": false
+        },
+        {
+            "id": 6,
+            "car_name": "Buick",
+            "car_type": "Roadmaster",
+            "car_year": 1991,
+            "image": "https://robohash.org/commodifugitadipisci.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/200x209.png/ff4444/ffffff",
+            "hex_color": "1e6f9b",
+            "damaged": true
+        },
+        {
+            "id": 7,
+            "car_name": "Chrysler",
+            "car_type": "Town & Country",
+            "car_year": 1998,
+            "image": "https://robohash.org/estvoluptatemest.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/104x108.png/5fa2dd/ffffff",
+            "hex_color": "486b0a",
+            "damaged": false
+        },
+        {
+            "id": 8,
+            "car_name": "Toyota",
+            "car_type": "Prius",
+            "car_year": 2011,
+            "image": "https://robohash.org/doloremquemollitiatemporibus.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/149x223.png/cc0000/ffffff",
+            "hex_color": "4545b0",
+            "damaged": true
+        },
+        {
+            "id": 9,
+            "car_name": "Hyundai",
+            "car_type": "Genesis",
+            "car_year": 2012,
+            "image": "https://robohash.org/estvoluptatesit.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/203x176.png/cc0000/ffffff",
+            "hex_color": "9b00e6",
+            "damaged": true
+        },
+        {
+            "id": 10,
+            "car_name": "Ford",
+            "car_type": "Ranger",
+            "car_year": 1997,
+            "image": "https://robohash.org/expeditaadnon.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/169x248.png/ff4444/ffffff",
+            "hex_color": "c41a00",
+            "damaged": false
+        },
+        {
+            "id": 11,
+            "car_name": "Bentley",
+            "car_type": "Continental Flying Spur",
+            "car_year": 2008,
+            "image": "https://robohash.org/suscipitmolestiasvoluptatibus.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/190x133.png/5fa2dd/ffffff",
+            "hex_color": "3714df",
+            "damaged": true
+        },
+        {
+            "id": 12,
+            "car_name": "GMC",
+            "car_type": "Savana 3500",
+            "car_year": 2000,
+            "image": "https://robohash.org/utetquisquam.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/189x112.png/cc0000/ffffff",
+            "hex_color": "b1bc54",
+            "damaged": false
+        },
+        {
+            "id": 13,
+            "car_name": "Toyota",
+            "car_type": "Sequoia",
+            "car_year": 2002,
+            "image": "https://robohash.org/aliquiddoloremquequi.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/177x139.png/dddddd/000000",
+            "hex_color": "903de1",
+            "damaged": false
+        },
+        {
+            "id": 14,
+            "car_name": "Chevrolet",
+            "car_type": "Suburban 2500",
+            "car_year": 1997,
+            "image": "https://robohash.org/explicabotemporacorrupti.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/115x203.png/cc0000/ffffff",
+            "hex_color": "c51f0d",
+            "damaged": true
+        },
+        {
+            "id": 15,
+            "car_name": "Mazda",
+            "car_type": "MX-3",
+            "car_year": 1994,
+            "image": "https://robohash.org/laboremollitiaquo.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/182x250.png/dddddd/000000",
+            "hex_color": "d378df",
+            "damaged": true
+        },
+        {
+            "id": 16,
+            "car_name": "Nissan",
+            "car_type": "Maxima",
+            "car_year": 2006,
+            "image": "https://robohash.org/minusodioexcepturi.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/210x197.png/5fa2dd/ffffff",
+            "hex_color": "eef105",
+            "damaged": false
+        },
+        {
+            "id": 17,
+            "car_name": "Infiniti",
+            "car_type": "G",
+            "car_year": 2012,
+            "image": "https://robohash.org/quodexcepturivoluptatem.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/220x129.png/cc0000/ffffff",
+            "hex_color": "c39a46",
+            "damaged": true
+        },
+        {
+            "id": 18,
+            "car_name": "Lexus",
+            "car_type": "IS-F",
+            "car_year": 2010,
+            "image": "https://robohash.org/nonexplaceat.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/146x224.png/ff4444/ffffff",
+            "hex_color": "3899c4",
+            "damaged": true
+        },
+        {
+            "id": 19,
+            "car_name": "Porsche",
+            "car_type": "911",
+            "car_year": 2010,
+            "image": "https://robohash.org/repudiandaeexercitationemsit.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/118x166.png/5fa2dd/ffffff",
+            "hex_color": "83cbe7",
+            "damaged": false
+        },
+        {
+            "id": 20,
+            "car_name": "Land Rover",
+            "car_type": "Discovery Series II",
+            "car_year": 2002,
+            "image": "https://robohash.org/sintnonut.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/197x183.png/ff4444/ffffff",
+            "hex_color": "4237cf",
+            "damaged": false
+        },
+        {
+            "id": 21,
+            "car_name": "Isuzu",
+            "car_type": "Oasis",
+            "car_year": 1999,
+            "image": "https://robohash.org/doloremquequidempraesentium.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/128x128.png/ff4444/ffffff",
+            "hex_color": "3a6d75",
+            "damaged": true
+        },
+        {
+            "id": 22,
+            "car_name": "Honda",
+            "car_type": "Prelude",
+            "car_year": 1999,
+            "image": "https://robohash.org/consecteturtemporalaboriosam.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/214x111.png/cc0000/ffffff",
+            "hex_color": "8f8e94",
+            "damaged": false
+        },
+        {
+            "id": 23,
+            "car_name": "Chevrolet",
+            "car_type": "Lumina",
+            "car_year": 1995,
+            "image": "https://robohash.org/quaeeiusminus.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/178x122.png/dddddd/000000",
+            "hex_color": "b0a3c3",
+            "damaged": false
+        },
+        {
+            "id": 24,
+            "car_name": "GMC",
+            "car_type": "Yukon",
+            "car_year": 1998,
+            "image": "https://robohash.org/idautexcepturi.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/143x137.png/ff4444/ffffff",
+            "hex_color": "78e288",
+            "damaged": false
+        },
+        {
+            "id": 25,
+            "car_name": "Toyota",
+            "car_type": "FJ Cruiser",
+            "car_year": 2010,
+            "image": "https://robohash.org/oditvitaereiciendis.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/237x113.png/ff4444/ffffff",
+            "hex_color": "760464",
+            "damaged": true
+        },
+        {
+            "id": 26,
+            "car_name": "Hyundai",
+            "car_type": "Santa Fe",
+            "car_year": 2004,
+            "image": "https://robohash.org/assumendaanobis.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/187x143.png/dddddd/000000",
+            "hex_color": "d6cc56",
+            "damaged": true
+        },
+        {
+            "id": 27,
+            "car_name": "GMC",
+            "car_type": "Sonoma",
+            "car_year": 1994,
+            "image": "https://robohash.org/suntprovidenteaque.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/101x200.png/5fa2dd/ffffff",
+            "hex_color": "8adb49",
+            "damaged": true
+        },
+        {
+            "id": 28,
+            "car_name": "Toyota",
+            "car_type": "Tundra",
+            "car_year": 2006,
+            "image": "https://robohash.org/quoscorporisquaerat.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/217x167.png/dddddd/000000",
+            "hex_color": "b92599",
+            "damaged": false
+        },
+        {
+            "id": 29,
+            "car_name": "Chevrolet",
+            "car_type": "Corvette",
+            "car_year": 1984,
+            "image": "https://robohash.org/accusamusatdeleniti.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/179x198.png/ff4444/ffffff",
+            "hex_color": "b9f4ee",
+            "damaged": true
+        },
+        {
+            "id": 30,
+            "car_name": "Chevrolet",
+            "car_type": "Astro",
+            "car_year": 1993,
+            "image": "https://robohash.org/sitsaepetotam.png?size=200x200&set=set1",
+            "color_image": "http://dummyimage.com/218x207.png/ff4444/ffffff",
+            "hex_color": "7c7b74",
+            "damaged": true
+        }
+    ]
+}
